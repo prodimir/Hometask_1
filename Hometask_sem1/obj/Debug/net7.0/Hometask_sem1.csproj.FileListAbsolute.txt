@@ -1,0 +1,15 @@
+C:\Users\vovap\Desktop\Учёба\gb(C#)_practics\Seminars\Hometask_sem1\obj\Debug\net7.0\Hometask_sem1.csproj.AssemblyReference.cache
+C:\Users\vovap\Desktop\Учёба\gb(C#)_practics\Seminars\Hometask_sem1\obj\Debug\net7.0\Hometask_sem1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vovap\Desktop\Учёба\gb(C#)_practics\Seminars\Hometask_sem1\obj\Debug\net7.0\Hometask_sem1.AssemblyInfoInputs.cache
+C:\Users\vovap\Desktop\Учёба\gb(C#)_practics\Seminars\Hometask_sem1\obj\Debug\net7.0\Hometask_sem1.AssemblyInfo.cs
+C:\Users\vovap\Desktop\Учёба\gb(C#)_practics\Seminars\Hometask_sem1\obj\Debug\net7.0\Hometask_sem1.csproj.CoreCompileInputs.cache
+C:\Users\vovap\Desktop\Учёба\gb(C#)_practics\Seminars\Hometask_sem1\bin\Debug\net7.0\Hometask_sem1.exe
+C:\Users\vovap\Desktop\Учёба\gb(C#)_practics\Seminars\Hometask_sem1\bin\Debug\net7.0\Hometask_sem1.deps.json
+C:\Users\vovap\Desktop\Учёба\gb(C#)_practics\Seminars\Hometask_sem1\bin\Debug\net7.0\Hometask_sem1.runtimeconfig.json
+C:\Users\vovap\Desktop\Учёба\gb(C#)_practics\Seminars\Hometask_sem1\bin\Debug\net7.0\Hometask_sem1.dll
+C:\Users\vovap\Desktop\Учёба\gb(C#)_practics\Seminars\Hometask_sem1\bin\Debug\net7.0\Hometask_sem1.pdb
+C:\Users\vovap\Desktop\Учёба\gb(C#)_practics\Seminars\Hometask_sem1\obj\Debug\net7.0\Hometask_sem1.dll
+C:\Users\vovap\Desktop\Учёба\gb(C#)_practics\Seminars\Hometask_sem1\obj\Debug\net7.0\refint\Hometask_sem1.dll
+C:\Users\vovap\Desktop\Учёба\gb(C#)_practics\Seminars\Hometask_sem1\obj\Debug\net7.0\Hometask_sem1.pdb
+C:\Users\vovap\Desktop\Учёба\gb(C#)_practics\Seminars\Hometask_sem1\obj\Debug\net7.0\Hometask_sem1.genruntimeconfig.cache
+C:\Users\vovap\Desktop\Учёба\gb(C#)_practics\Seminars\Hometask_sem1\obj\Debug\net7.0\ref\Hometask_sem1.dll
