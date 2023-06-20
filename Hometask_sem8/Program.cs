@@ -213,9 +213,10 @@
 
 // int[, ,] mtrx = new int[row,column,size];
 // int[] repeat = new int[90];
-// int check;
+// //int check;
 
 // FillMatrix(mtrx);
+// PrintRepeat(repeat);
 
 // void FillMatrix(int[,,] matrix)
 // {
@@ -226,9 +227,9 @@
 //             for (int k = 0; k < mtrx.GetLength(2); k++)
 //             {
 //                 mtrx[i,j,k] = new Random().Next(10,100);
-//                 check = mtrx[i,j,k];
-//                 RandomNumber(check);
-//                 mtrx[i,j,k] = check;
+//                 //check = mtrx[i,j,k];
+//                 // RandomNumber(check);
+//                 mtrx[i,j,k] = RandomNumber(mtrx[i,j,k]);
 //                 Console.Write($"{mtrx[i,j,k]}({i},{j},{k})" + " ");
 
 //             }
@@ -238,7 +239,7 @@
 //     }
 // }
 
-// void RandomNumber(int parametr)
+// int RandomNumber(int parametr)
 // {
     
 //     for (int i = 0; i < repeat.Length; i++)
@@ -252,23 +253,33 @@
 //         else
 //         {
             
-//             if ((repeat[i] >= 10) || (repeat[i] <= 100))
+//             if ((repeat[i] >= 10) && (repeat[i] <= 100))
 //             {
                 
 //             }
 //             else
 //             {
 //                 repeat[i] = parametr;
-//                 break;
+//                 return parametr;
+               
                 
 //             }
 
            
 //         }
         
+        
 //     }
+//     return parametr;
 // }
 
+// void PrintRepeat(int[] vol)
+// {
+//     for (int i = 0; i < vol.Length; i++)
+//     {
+//         Console.Write(vol[i] + " ");
+//     }
+// }
 /////////////////////////////////////////////////////////////////////////
 
 /*********************task_62*****************/
@@ -276,11 +287,60 @@
 //Напишите программу, которая заполнит спирально массив 4 на 4.
 /////////////////////////////////////////////////////////////////////////
 
-// int[,] array = new int[4,4];
-// for (int i = 0; i < array.GetLength(0); i++)
-// {
-//     for (int i = 0; i < length; i++)
-//     {
+int[,] arr = new int[4,4];
+int fill = 1;
+
+Spiral(arr);
+PrintArray(arr);
+
+void Spiral(int [,] array)
+{
+    for (int j = 0; j < array.GetLength(1); j++)
+    {
+        array[0,j] = fill;
+        fill++;
         
-//     }
-// }
+    }
+    for (int i = 1; i < array.GetLength(0); i++)
+    {
+        array[i,3] = fill;
+        fill++;
+    }
+    for (int j = 2; j >= 0 ; j--)
+    {
+        array[3,j] = fill;
+        fill++;
+    }
+    for (int i = 2; i > 0; i--)
+    {
+        array[i,0] = fill;
+        fill++;
+    }
+    for (int j = 1; j < 3; j++)
+    {
+        array[1,j] = fill;
+        fill++;
+    }
+    for (int i = 2; i < 3; i++)
+    {
+        array[i,2] = fill;
+        fill++;        
+    }
+    for (int j = 1; j < 2 ; j++)
+    {
+        array[2,j] = fill;
+    }
+    
+}
+
+void PrintArray(int[,] array)
+{
+    for (int i = 0; i < array.GetLength(0); i++)
+    {
+        for (int j = 0; j < array.GetLength(1); j++)
+        {
+            Console.Write(array[i,j] + " ");
+        }
+        Console.WriteLine();
+    }
+}
